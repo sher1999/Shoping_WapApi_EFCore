@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\WepApi\\WepApi.csproj": {}
+    "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\WepApi\\WepApi.csproj": {}
   },
   "projects": {
-    "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Domain\\Domain.csproj": {
+    "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Domain\\Domain.csproj",
+        "projectPath": "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Azizbek\\.nuget\\packages\\",
-        "outputPath": "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Domain\\obj\\",
+        "outputPath": "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Azizbek\\.nuget\\packages\\",
-        "outputPath": "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Infrastructure\\obj\\",
+        "outputPath": "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,8 +91,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Domain\\Domain.csproj"
+              "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Domain\\Domain.csproj"
               }
             }
           }
@@ -107,6 +107,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -116,6 +120,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -142,14 +150,14 @@
         }
       }
     },
-    "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\WepApi\\WepApi.csproj": {
+    "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\WepApi\\WepApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\WepApi\\WepApi.csproj",
+        "projectUniqueName": "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\WepApi\\WepApi.csproj",
         "projectName": "WepApi",
-        "projectPath": "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\WepApi\\WepApi.csproj",
+        "projectPath": "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\WepApi\\WepApi.csproj",
         "packagesPath": "C:\\Users\\Azizbek\\.nuget\\packages\\",
-        "outputPath": "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\WepApi\\obj\\",
+        "outputPath": "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\WepApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,11 +178,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Domain\\Domain.csproj"
+              "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Domain\\Domain.csproj"
               },
-              "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Infrastructure\\Infrastructure.csproj"
+              "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

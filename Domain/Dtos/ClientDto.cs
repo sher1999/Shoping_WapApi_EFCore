@@ -1,19 +1,18 @@
-using System.ComponentModel.DataAnnotations;
-namespace Domain.Dtos.CompanyDtos;
+namespace Domain.Dtos;
 
-public class GetCostumerDto
+public class ClientDto
 {
-    public int Id {get;set;}
+      public int Id {get;set;}
   public string? FirstName{get;set;}
   public string? LastName{get;set;}
   public string? Address{get;set;}
   public string? Phone{get;set;}
   public string? Email{get;set;}
-    public GetCostumerDto()
+    public ClientDto()
     {
         
     }
-   public GetCostumerDto(int id,string? firstName,string? lastName,string? address,string? phone,string? email )
+   public ClientDto(int id,string? firstName,string? lastName,string? address,string? phone,string? email )
   {
     Id=id;
     FirstName=firstName;
@@ -22,5 +21,4 @@ public class GetCostumerDto
     Phone=phone;
     Email=email;
   }
-
 }

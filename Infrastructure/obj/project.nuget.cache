@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1Q2uspOB48IP1/jD8csCli3pf4/9D5mnV3v0p0NVzq0MLvkuWcr503R5MPoAX89F/JDRMBlwBCqtF8xjcJx1yg==",
+  "dgSpecHash": "rxRYfoCxDsmccYOrlwzsS1/YQWeoM0L23dHx0m198LxETCwYVuFb4xzCf4F2zfE6AA+7k+p44PCKAvwl69mXlA==",
   "success": true,
-  "projectFilePath": "D:\\coftclub\\C#\\week6\\17.01.23\\Новая папка\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\coftclub\\C#\\week6\\19.01.23\\RealHomeWork\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Azizbek\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Azizbek\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Azizbek\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
     "C:\\Users\\Azizbek\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.2\\microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",

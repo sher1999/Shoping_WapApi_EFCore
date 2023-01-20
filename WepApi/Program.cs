@@ -10,10 +10,15 @@ var builder = WebApplication.CreateBuilder(args);
     var connection = builder.Configuration.GetConnectionString("DefaultConnection");
     builder.Services.AddDbContext<DataContext>(conf => conf.UseNpgsql(connection));
     builder.Services.AddControllers();
-    builder.Services.AddScoped<CustomerService>();
-    builder.Services.AddScoped<OrderService>();
-    builder.Services.AddScoped<ProductService>();
-    builder.Services.AddScoped<OrderDetailService>();
+    builder.Services.AddScoped<ClientService>();
+
+
+   
+  
+  
+  
+   
+    
 
 
     
